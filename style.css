@@ -1,0 +1,144 @@
+#top_nav{
+    background-color: #daac00;
+    padding: 0 6%;
+    height: 60px;
+    font-size: 18px;
+}
+.nav-item:hover{
+    background-color: rgb(22, 183, 237);
+    box-shadow: 5px 5px 5px lavender;
+    height: 40px;
+   
+}
+
+#img1{
+    background-color: rgb(146, 216, 17);
+    width: 70px;
+    height: 60px;
+    box-shadow: 2px  rgb(16, 16, 16);
+    
+}
+.nav-item{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+    height: 40px;
+    transition: 0.2s ease-in;
+    background: hsl(340, 43%, 89%);
+    outline-offset: 4px;
+    
+
+}
+
+#searchbox{
+    background-color: white;
+    
+    font-weight:500;
+    border: 0px;
+    border-radius: 0px;
+    position: relative;
+    left:76px;
+    box-shadow: 3px 3px 3px rgb(92, 91, 91);
+    width: 300px;
+   
+}
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #376568;
+    color: white;
+    border: 0;
+    border-radius: 0;
+}
+#searchbtn:hover{
+    background-color: blue;
+    color:black;
+    transition: .2s ease-in;
+}
+
+#right-div{
+   
+    margin-top: 1px;
+    background: linear-gradient(45deg, rgb(245, 245, 13,0.3), rgb(245,240,20,0.8),rgb(246,250,30,0.9));
+    animation:color 12s ease-in-out infinite
+}
+@keyframes color{
+    0% { background-position: 0 25%;}
+    25% { background-position: 0 50%;}
+    100% { background-position: 0 100%;}
+}
+ #booknow{
+    border-radius: 8PX; background-color: blue; color:white;  
+    transition: .5s ease;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+ }
+  @keyframes example{
+    from {background-color: crimson;}
+    to {background-color: green;}
+  }
+ #booknow:hover{
+    background-color: crimson;
+    color:#fcc302;
+    transition: 0.3s ease-in;
+    
+ }
+
+.service{
+    background-color: rgb(246, 227, 227);
+    padding-left: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 10px rgb(124, 115, 115);
+}
+
+#butn{
+    border-radius: 8px;
+    background-color: rgb(215, 214, 209);
+    border:0px;
+
+}
+ #butn:hover{
+    background-color: rgb(45, 45, 165);
+    color:white;
+ }
+#SP{
+    background-color: rgb(144, 168, 160);
+     width: 500px; 
+     height: 30px; 
+     margin-top: 20px; 
+     margin-left: 350px;
+}
+
+#Spe{
+    padding-left: 120px;
+    padding-top: 20PX;
+    max-width: 50px;
+    color: #0f0646;
+    
+}
+
+#PH{
+    padding: 130PX;
+    padding-top: 20PX;
+    color: rgb(6, 6, 75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
